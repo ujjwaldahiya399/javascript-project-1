@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-top: 4em;
+    height: auto;
+    opacity: 1;
+    background: #3D087B 0% 0% no-repeat padding-box;
+    justify-content: center;
+}
+.left,.right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.clockandmesgBox{
+    display: flex;;
+    flex-wrap: wrap;
+    width: auto;;
+    height: auto;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.imgLogo{
+    display: flex;
+    width: 200px;
+    height: 77px;
+}
+.messageandimagetext{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 1%;
+}
+.scheduleBox{
+    display: block;
+    width: auto;
+    padding: 1em;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 2em;
+}
+.same {
+    display: flex;
+    justify-content: space-evenly;
+}
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3D087B;
+}
+select {
+    display: flex;
+    justify-content: center;;
+    align-items: center;;
+    background-color: #ffffff;
+    border: 2px solid #EDEDED;
+    width: 45%;
+    color: #3D087BDE;
+}
+.wishBox{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #6A419A;
+    margin-top: 1em;
+}
+.line {
+    border-left: 2px solid #6A419A;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 0.5em;
+}
+#wakeuptext{
+    color:#ffffff;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.setAlarmandtimeTablebox{
+    display: flex;;
+    justify-content: space-between;
+    /* background-color: cadetblue; */
+}
+button {
+    display: flex;
+    margin-top: 1.5em;
+    width: 45%;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    height: 50px;
+    color: #ffffff;
+    font-size: larger;
+    background:linear-gradient(to right,#6E54EC 0%,#CB52F8 33%,#FC5EFF 66%,#F1A7C5 100%)
+}
+#dailyRoutine {
+    border-radius: 5px;
+    background-color: #6A419A;
+    color: #F25CFE;
+    line-height: 0.2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    font-size: medium;
+    font-style: normal;
+    width: 45%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1.5em;
+    text-align: left;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.timeBox {
+    display: flex;
+    justify-content: space-around  ;
+    background-color: #ffffff;
+    height: 130px;
+    margin-top: 1.5em;
+    width: 97%;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 2;
+}
+.extra1,.extra2 {
+    display: flex;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: #D3C7E1;
+    border-radius: 5px;
+    top: 19%;
+    left: 53.7%;
+    z-index: 1;
+}
+.extra2{
+    top: 20%;
+    width: 420px;
+    left: 53.3%;
+    z-index: 0;
+    background-color: #683E98;
+}
+.xyz,.spcl {
+    display: flex;
+    width:80px ;
+    height:90px ;
+    background-color: #F6E2FF;
+    color: #8A11BF;
+    justify-content: center;
+    align-items: center;;
+    font-size: x-large;
+}
+.ampm{
+    background-image: url("Assets/AM_svg.svg");
+    color: #ffffff;
+}
+.grabsomefoodBox{
+    display: flex;
+    width: 97%;
+    height: 118px;
+    background-color: #ffffff;
+    color: #8E53F0;
+    border-radius: 5px;
+    justify-content: center;;
+    align-items: center;
+    margin-top: 3em;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.image{
+    display: flex;
+    width: 97%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 1em;
+    height: 340px;
+}
