@@ -8,11 +8,19 @@ body{
     align-items: center;;
 }
 .container{
+    /* display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0.1em;
+    height: 99.6vh;
+    opacity: 1;
+    background: #3D087B 0% 0% no-repeat padding-box;
+    justify-content: center; */
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
-    margin-top: 4em;
-    height: auto;
+    width: 100%;
+    margin-top: 0.1em;
+    height: 99.6vh;
     opacity: 1;
     background: #3D087B 0% 0% no-repeat padding-box;
     justify-content: center;
@@ -21,15 +29,21 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 40%;
-    height: 60%;
+    height: 90%;
     flex-direction: column;
     justify-content: space-between;
 
 }
+.right {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .clockandmesgBox{
     display: flex;;
     flex-wrap: wrap;
-    width: auto;;
+    width: 100%;
     height: auto;
     border-radius: 5px;
     justify-content: space-between;
@@ -59,7 +73,7 @@ body{
     height: auto;
     border-radius: 5px;
     background-color: white;
-    margin-top: 2em;
+    /* margin-top: 2em; */
 }
 .same {
     display: flex;
@@ -86,7 +100,7 @@ select {
     align-items: center;
     border-radius: 5px;
     background-color: #6A419A;
-    margin-top: 1em;
+    /* margin-top: 1em; */
 }
 .line {
     border-left: 2px solid #6A419A;
@@ -137,7 +151,7 @@ button {
 .right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 1em;
 }
 
@@ -159,14 +173,14 @@ button {
     height: 50px;
     background-color: #D3C7E1;
     border-radius: 5px;
-    top: 19%;
-    left: 53.7%;
+    top: 13%;
+    left: 58.7%;
     z-index: 1;
 }
 .extra2{
-    top: 20%;
+    top: 14%;
     width: 420px;
-    left: 53.3%;
+    left: 58.3%;
     z-index: 0;
     background-color: #683E98;
 }
@@ -193,7 +207,7 @@ button {
     border-radius: 5px;
     justify-content: center;;
     align-items: center;
-    margin-top: 3em;
+    /* margin-top: 1em; */
     font-size: larger;
     font-style: oblique;
     font-weight: bolder;
@@ -203,6 +217,6 @@ button {
     width: 97%;
     background-color: #ffffff;
     border-radius: 5px;
-    margin-top: 1em;
+    /* margin-top: 1em; */
     height: 340px;
 }
